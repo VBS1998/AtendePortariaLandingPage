@@ -1,0 +1,20 @@
+{
+  "name": "mkt.atendeportaria.com.br",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server -p 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VBS1998/AtendePortariaLandingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VBS1998/AtendePortariaLandingPage/issues"
+  },
+  "homepage": "https://github.com/VBS1998/AtendePortariaLandingPage#readme"
+}
