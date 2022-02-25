@@ -1,0 +1,754 @@
+<!-- builder -->
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head><meta property="og:locale" content="pt_BR"><meta property="og:type" content="website"><meta property="og:title" content="ATENDE PORTARIA - Solicite um Orçamento AGORA!"><meta name="twitter:title" content="ATENDE PORTARIA - Solicite um Orçamento AGORA!"><meta property="og:site_name" content="PRINCIPAL"><meta name="application-name" content="PRINCIPAL"><meta property="og:description" content="Com a Atende Portaria seu condomínio pode ter uma economia de até 60%. Solicite um orçamento!"><meta name="twitter:description" content="Com a Atende Portaria seu condomínio pode ter uma economia de até 60%. Solicite um orçamento!"><meta name="description" content="Com a Atende Portaria seu condomínio pode ter uma economia de até 60%. Solicite um orçamento!"><style type="text/css">
+            .modal-open {
+                overflow: hidden
+            }
+            .modal {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1040;
+                display: none;
+                overflow: auto;
+                overflow-y: scroll
+            }
+            .modal.fade .modal-dialog {
+                -webkit-transform: translate(0, -25%);
+                -ms-transform: translate(0, -25%);
+                transform: translate(0, -25%);
+                -webkit-transition: -webkit-transform 0.3s ease-out;
+                -moz-transition: -moz-transform 0.3s ease-out;
+                -o-transition: -o-transform 0.3s ease-out;
+                transition: transform 0.3s ease-out
+            }
+            .modal.in .modal-dialog {
+                -webkit-transform: translate(0, 0);
+                -ms-transform: translate(0, 0);
+                transform: translate(0, 0)
+            }
+            .modal-dialog {
+                position: relative;
+                z-index: 1050;
+                width: auto;
+                margin: 10px
+            }
+            .modal-content {
+                position: relative;
+                background-color: #fff;
+                border: 1px solid #999;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 6px;
+                outline: 0;
+                -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+                background-clip: padding-box
+            }
+            .modal-backdrop {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1030;
+                background-color: #000
+            }
+            .modal-backdrop.fade {
+                opacity: 0;
+                filter:alpha(opacity=0)
+            }
+            .modal-backdrop.in {
+                opacity: .5;
+                filter:alpha(opacity=50)
+            }
+            .modal-header {
+                min-height: 16.428571429px;
+                padding: 15px;
+                border-bottom: 1px solid #e5e5e5
+            }
+            .modal-header .close {
+                margin-top: -2px
+            }
+            .modal-title {
+                margin: 0;
+                line-height: 1.428571429
+            }
+            .modal-body {
+                position: relative;
+                padding: 20px;
+                min-height: 300px
+            }
+            .modal-footer {
+                padding: 19px 20px 20px;
+                margin-top: 15px;
+                text-align: right;
+                border-top: 1px solid #e5e5e5
+            }
+            .modal-footer:before,
+            .modal-footer:after {
+                display: table;
+                content: " "
+            }
+            .modal-footer:after {
+                clear: both
+            }
+            .modal-footer:before,
+            .modal-footer:after {
+                display: table;
+                content: " "
+            }
+            .modal-footer:after {
+                clear: both
+            }
+            .modal-footer .btn+.btn {
+                margin-bottom: 0;
+                margin-left: 5px
+            }
+            .modal-footer .btn-group .btn+.btn {
+                margin-left: -1px
+            }
+            .modal-footer .btn-block+.btn-block {
+                margin-left: 0
+            }
+            @media screen and(min-width:768px) {
+                .modal-dialog {
+                    width: 600px;
+                    margin: 30px auto
+                }
+                .modal-content {
+                    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+                }
+            }
+            .btn {
+                display: inline-block;
+                padding: 6px 12px;
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 1.428571429;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                cursor: pointer;
+                background-image: none;
+                border: 1px solid transparent;
+                border-radius: 4px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -o-user-select: none;
+                user-select: none
+            }
+            .btn-primary {
+                color: #fff;
+                background-color: #428bca;
+                border-color: #357ebd
+            }
+            .btn-primary:hover,
+            .btn-primary:focus,
+            .btn-primary:active,
+            .btn-primary.active,
+            .open .dropdown-toggle.btn-primary {
+                color: #fff;
+                background-color: #3276b1;
+                border-color: #285e8e
+            }
+        </style>
+        <title>ATENDE PORTARIA - Solicite um Orçamento AGORA!</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!--pageMeta--><!-- Loading Bootstrap --><link rel="stylesheet" href="builder/elements/css/bootstrap.css"><!-- Loading Elements Styles --><link rel="stylesheet" href="builder/elements/css/style.css"><!-- Loading Magnific-Popup Styles --><link href="Content/font-awesome.css" rel="stylesheet" type="text/css"><!-- Fontawesome atualizado --><link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900" rel="stylesheet" type="text/css"><link rel="stylesheet" href="builder/elements/css/magnific-popup.css"><!-- Loading Font Styles --><link rel="stylesheet" href="builder/elements/css/iconfont-style.css"><!-- WOW Animate--><link rel="stylesheet" href="builder/elements/scripts/animations/animate.css"><!-- Favicons --><link rel="stylesheet" href="builder/elements/css/popup.css"><!-- Popup --><link rel="stylesheet" href="https://blob.contato.io/machine-files/builder/menudrop.css"><!--menu-dropdown--><link rel="icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" sizes="72x72"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" sizes="114x114"><!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. --><!--js libs--><script src="builder/elements/scripts/jquery-1.11.2.min.js"> </script>
+        <script src="builder/elements/scripts/html5shiv.js" defer=""></script>
+        <script src="builder/elements/scripts/respond.min.js" defer=""></script><!--headerIncludes--><link href="https://blob.contato.io/machine-files/builder/allpages.builder.css" rel="stylesheet" type="text/css"><style type="text/css">
+            @media(max-width: 992px) {
+                .bg-mobile-29 {
+                    background-size: 100% !important;
+                    background-position: top !important;
+                    padding-top: 50px !important;
+                }
+                .margin-top-mobile-29 {
+                    margin-top: 50% !important;
+                }
+            }
+        </style>
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) 
+                    return;
+                
+                n = f.fbq = function () {
+                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (! f._fbq) 
+                    f._fbq = n;
+                
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '3093622390709313');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3093622390709313&ev=PageView&noscript=1"/></noscript>
+        <!-- End Facebook Pixel Code -->
+        <script>
+            fbq('track', 'ViewContent');
+        </script>
+        <script>
+            function onClick() {
+                fbq('track', 'Lead');
+            };
+        </script>
+
+        <!-- SMARTLOOK Code -->
+
+        <script type='text/javascript'>
+            window.smartlook || (function (d) {
+                var o = smartlook = function () {
+                        o.api.push(arguments)
+                    },
+                    h = d.getElementsByTagName('head')[0];
+                var c = d.createElement('script');
+                o.api = new Array();
+                c.async = true;
+                c.type = 'text/javascript';
+                c.charset = 'utf-8';
+                c.src = 'https://rec.smartlook.com/recorder.js';
+                h.appendChild(c);
+            })(document);
+            smartlook('init', 'd5c6875e54ee0efdf8e55160e55d2e82469705cc');
+        </script>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-KZCM3GQ');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) 
+                    return;
+                
+                n = f.fbq = function () {
+                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (! f._fbq) 
+                    f._fbq = n;
+                
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '3093622390709313');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3093622390709313&ev=PageView&noscript=1"/></noscript>
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Global site tag (gtag.js) - Google Ads: 717512696 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-717512696"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'AW-717512696');
+        </script>
+
+        <!-- Smartlook Code -->
+        <script type='text/javascript'>
+            window.smartlook || (function (d) {
+                var o = smartlook = function () {
+                        o.api.push(arguments)
+                    },
+                    h = d.getElementsByTagName('head')[0];
+                var c = d.createElement('script');
+                o.api = new Array();
+                c.async = true;
+                c.type = 'text/javascript';
+                c.charset = 'utf-8';
+                c.src = 'https://rec.smartlook.com/recorder.js';
+                h.appendChild(c);
+            })(document);
+            smartlook('init', 'd5c6875e54ee0efdf8e55160e55d2e82469705cc');
+        </script>
+    </head>
+    <body data-target=".navMenuCollapse" data-spy="scroll" class="vsc-initialized"><!--PRELOADER--><div id="wrap" wfd-id="1">
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <script type="text/javascript" src="https://blob.llimages.com/machine-files/builder/pop-exit.js"></script>
+            <script type="text/javascript" src="https://blob.llimages.com/machine-files/builder/exitpop.js"></script>
+            <div class="modal fade" id="exit-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog" style="margin-top: 60px; transform: none; -webkit-transform: none;">
+                    <div class="modal-content">
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </a>
+                        <div class="modal-body">
+                            <div class="form-container" data-selector="#testimonials-grid .quote, .pricing-table, .pricing-table .stamp, .post, .panel, .panel-heading, .form-container, .post-content .price-circle" src="https://blob.contato.io/machine-user-images/img-55398-20160714151736.png" style="color: rgb(85, 85, 85); border-color: rgb(85, 85, 85); border-width: 0px; border-radius: 3px; font-size: 17px; background-color: rgb(243, 243, 243);">
+                                <h3 class="title" data-selector="h3" src="https://blob.contato.io/machine-user-images/img-55398-20160714151736.png" style="color: rgb(255, 0, 0); font-size: 26px; background-color: rgba(0, 0, 0, 0); margin-bottom: 40px; margin-top: 0px; font-family: Montserrat;">
+                                    <strong>SOLICITE ORÇAMENTO AGORA!</strong>
+                                </h3>
+                                <form role="form" id="contact_form" method="post" action="" novalidate="novalidate" data-selector="form" class="">
+                                    <div class="form-group"><input id="contact_name" class="form-control" name="name" placeholder="Seu nome completo" wfd-id="2">
+                                    </div>
+                                    <div class="form-group"><input id="contact_email" class="form-control" name="email" placeholder="Seu melhor e-mail" wfd-id="1">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="contact_phone" class="form-control" name="phone" placeholder="(DDD) Telefone / WhatsApp" wfd-id="3"></textarea>
+                                    </div>
+                                    <button onclick="fbq('track', 'Lead');" id="contact_submit" class="btn btn-lg btn-primary" type="submit" data-loading-text="•••" style="white-space: normal; background: rgb(2, 194, 206); border-color: rgb(255, 255, 255); width: 100%; color: rgb(255, 255, 255); border-width: 1px; border-radius: 5px; font-size: 20px;" data-selector="a.btn, a.download-btn, button.btn, a.goto" src="https://blob.contato.io/machine-user-images/img-55398-20160714151736.png" wfd-id="4">
+                                        <i class="icon icon-paper-plane" data-selector=".icon"></i>
+                                        <strong>ENVIAR</strong>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="editContent" style="font-size: 14px;" data-selector="p">Assim como você não gostamos de spam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .modal-content {
+                    padding: 40px 20px;
+                }
+
+                .modal-footer {
+                    text-align: center;
+                }
+
+                .close {
+                    background-color: transparent;
+                    line-height: inherit;
+                }
+
+                @media(max-width: 420px) {
+                    .form-container {
+                        padding: 20px;
+                    }
+                }
+            </style>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <section class="navbar" data-selector="section" style="padding-top: 15px; padding-bottom: 15px; border-radius: 0px; margin-bottom: 0px; background-image: none; background-color: rgb(223, 2, 9); border-bottom: 1px solid rgba(0, 0, 0, 0); background-repeat: repeat; background-size: auto; background-attachment: scroll;" wfd-id="1">
+                <nav class="container" data-selector="nav" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="background-color: rgba(0, 0, 0, 0); color: rgb(85, 85, 85); box-shadow: none;">
+                    <a class="navbar-brand goto" href="#" data-selector="a.btn, a.download-btn, button.btn, a.goto"><img alt="Your logo" src="https://blob.contato.io/machine-user-images/logo-atende-branco-img-2048407-20191003183730.png" style="width: 150px; height: 61px; border-radius: 0px; border-color: transparent; border-style: none; border-width: 1px;" data-selector="img" class=""></a>
+                    <button class="round-toggle navbar-toggle menu-collapse-btn collapsed" data-target=".navMenuCollapse" data-toggle="collapse" wfd-id="8">
+                        <span class="icon-bar" data-selector="span.icon-bar" wfd-id="7"></span>
+                        <span class="icon-bar" data-selector="span.icon-bar" wfd-id="6"></span>
+                        <span class="icon-bar" data-selector="span.icon-bar" wfd-id="5"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse navMenuCollapse" wfd-id="2">
+                        <ul class="nav" wfd-id="3">
+                            <li data-selector="nav li" class="" wfd-id="4">
+                                <a href="https://wa.me/5511974921266" class="btn btn-primary btn-md" style="color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); font-family: Montserrat; border-width: 1px; border-radius: 4px; font-size: 14px; background-color: rgba(0, 0, 0, 0);" data-selector="a.btn, a.download-btn, button.btn, a.goto" alt="Your logo" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" target="_blank">
+                                    <i class="icon fa fa-whatsapp" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-branco-img-2048407-20191003183730.png" id="ui-id-10" style="color: rgb(255, 255, 255); font-size: 25px; opacity: 1;" alt="Lead Lovers"></i>
+                                    <strong>SOLICITE ORÇAMENTO</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- INTRO HALF LEFT 3 BLOCK --><section id="intro-half-left-3" class="intro-block bg-color3 fixed-bg double-padding" data-selector="section" style="background-image: url(&quot;https://blob.contato.io/machine-user-images/hero1-img-2048407-20191010141858.jpg&quot;); background-color: rgb(248, 249, 251); padding-top: 180px; padding-bottom: 180px; border-bottom: 0px none rgb(85, 85, 85); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <div class="row" wfd-id="3">
+                        <div class="col-md-6" data-selector=".col-md-6" wfd-id="4">
+                            <div class="slogan" style="" wfd-id="6">
+                                <h1 class="" data-selector="h1" style="color: rgb(255, 255, 255); font-size: 60px; background-color: rgba(0, 0, 0, 0); margin-bottom: 10px; margin-top: 20px; font-family: Roboto;">
+                                    <strong>Reduza em até 60%</strong><br>os custos de seu condomínio.</h1>
+                            </div>
+                            <div class="slogan" style="" wfd-id="5"></div>
+                            <a class="btn btn-lg btn-default goto" href="https://wa.me/5511974921266" style="background: rgb(255, 255, 255); border-color: rgb(255, 0, 0); color: rgb(255, 0, 0); white-space: normal; border-width: 1px; border-radius: 5px; font-size: 20px;" data-selector="a.btn, a.download-btn, button.btn, a.goto">
+                                <i class="icon fa fa-whatsapp" data-selector=".icon" id="ui-id-4" style="color: rgb(255, 0, 0); font-size: 20px; opacity: 1;"></i>
+                                <strong>Solicite Orçamento</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <section class="row" id="bonus-exclusivos" data-selector="section" style="padding-top: 40px; padding-bottom: 10px; background-image: none; background-color: rgba(0, 0, 0, 0); border-bottom: 0px none rgb(85, 85, 85); background-repeat: repeat; background-size: auto; background-attachment: scroll;" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <h2 class="text-center" style="font-family: Montserrat;" data-selector="h2">
+                        <strong>
+                            <h2 itemprop="name" class="linha-titulo" style="margin-top: 20px; margin-bottom: 10px; font-family: Montserrat; line-height: 1.1; color: rgb(223, 2, 9); font-size: 25px; text-transform: uppercase; position: relative; z-index: 1; text-align: center; background-color: rgb(255, 255, 255);" data-selector="h2" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>O QUE É PORTARIA REMOTA?</strong>
+                            </h2>
+                        </strong>
+                    </h2>
+                    <h3 class="text-center" style="font-family: Montserrat; color: rgb(34, 34, 34); font-size: 18px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 20px;" data-selector="h3" src="https://blob.contato.io/machine-user-images/4-img-2048407-20191006084154.png">De forma resumida e direta, portaria remota é o conceito de substituir o porteiro tradicional (que fica na sua guarita) pelo porteiro a distância, que atua em nosso poderoso sistema de controle e monitoramento. Vejamos abaixo apenas ALGUNS dos principais benefícios:</h3>
+                    <div class="row" style="margin-top: 35px;" wfd-id="3">
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="7"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/1-img-2048407-20191006084153.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>MAIS CONTROLE</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Registro de todas as atividades, qual visitante, quem permitiu o acesso, data, hora, foto, imagens e áudio do atendimento.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" src="https://blob.contato.io/machine-user-images/4-img-2048407-20191006084154.png" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border-color: rgb(85, 85, 85); border-radius: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 1px; border-style: none;" wfd-id="6"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/2-img-2048407-20191006084153.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>RISCO NULO</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Eliminação de riscos de sequestro de porteiro ou invasão da cabine.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="5"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/3-img-2048407-20191006084154.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>SEM DISTRAÇÕES</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Sem risco de distração em conversas do porteiro com moradores ou visitantes.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="4"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/4-img-2048407-20191006084154.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>GRAVAÇÃO</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Gravação de todas as imagens de visitantes e acessos de moradores com segurança em nossos servidores.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <section class="row" id="bonus-exclusivos" data-selector="section" style="padding-top: 20px; padding-bottom: 10px; background-image: none; background-color: rgba(0, 0, 0, 0); border-bottom: 0px none rgb(85, 85, 85); background-repeat: repeat; background-size: auto; background-attachment: scroll;" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <h2 class="text-center" style="font-family: Montserrat;" data-selector="h2">
+                        <strong></strong>
+                    </h2>
+                    <div class="row" style="margin-top: 35px;" wfd-id="3">
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="7"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/5-img-2048407-20191006084155.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>ASSISTÊNCIA</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Assistência técnica permanente. Ou seja, a Atende Portaria cuida de toda a manutenção preventiva e corretiva para você enquanto vigente o contrato.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="6"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/6-img-2048407-20191006084155.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>24 HORAS / 7 DIAS</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Flexibilidade para escolher entre 24 horas de portaria remota ou apenas 12 horas, permitindo uma mudança mais sutil e planejada.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="5"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/7-img-2048407-20191006084155.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>PROJETO PADRONIZADO</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Nada de adaptações! Projeto de implantação totalmente padronizado para sua necessidade.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="4"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/8-img-2048407-20191006084156.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>ECONOMIA</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Redução de até 60% nos custos do condomínio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/jquery-1.11.2.min.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/bootstrap.min.js"></script>
+            <section class="row" id="bonus-exclusivos" data-selector="section" style="padding-top: 20px; padding-bottom: 40px; background-image: none; background-color: rgba(0, 0, 0, 0); border-bottom: 0px none rgb(85, 85, 85); background-repeat: repeat; background-size: auto; background-attachment: scroll;" src="https://blob.contato.io/machine-user-images/8-img-2048407-20191006084156.png" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <h2 class="text-center" style="font-family: Montserrat;" data-selector="h2">
+                        <strong></strong>
+                    </h2>
+                    <div class="row" style="margin-top: 35px;" wfd-id="3">
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="7"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/9-img-2048407-20191006084156.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>ZERO RISCO TRABALHISTA</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Eliminação de riscos trabalhistas e acumulo de passivos. Sem preocupação com folgas, faltas e férias.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="6"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/10-img-2048407-20191006084157.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>PROFISSIONALISMO</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Equipe de profissionais de atendimento supervisionados 24 horas, com risco zero de ociosidade e demora nos atendimentos.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="5"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/11-img-2048407-20191006084157.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>CENTRAL SEGURA</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Central de monitoramento própria, com acesso restrito e blindagem, proporcionando segurança incomparável contra invasões e abordagem.</p>
+                        </div>
+                        <div class="col-md-3" data-selector=".col-md-3" wfd-id="4"><img class="img-responsive center-block" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png" data-selector="img" style="width: 100px; height: 100px; border-radius: 50px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"><h4 class="text-center" style="font-size: 18px; margin-top: 25px; color: rgb(223, 2, 9); margin-bottom: 5px; font-family: Montserrat; background-color: rgba(0, 0, 0, 0);" data-selector="h4" src="https://blob.contato.io/machine-user-images/12-img-2048407-20191006084158.png">
+                                <strong>MAIS SEGURANÇA</strong>
+                            </h4>
+                            <p class="text-center content" style="color: rgb(64, 64, 65); font-family: Montserrat;" data-selector="p">Monitoramento do Status dos portões e portas. Com monitoramento anti-pânico durante o acesso do morador e sistema integrado com alarme, cerca e câmeras do condomínio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- INTRO VIDEO --><section id="intro-video" class="intro-block dark-bg cover-bg double-padding" data-selector="section" style="background-color: rgb(223, 2, 9); padding-top: 40px; padding-bottom: 40px; border-bottom: 0px none rgb(255, 255, 255); background-repeat: no-repeat; background-size: cover; background-attachment: scroll; background-image: none;" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <div class="row" wfd-id="3">
+                        <div class="col-md-5" data-selector=".col-md-5" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); border-radius: 0px; margin-top: 30px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 1px; border-style: none;" wfd-id="7">
+                            <div class="slogan" style="" wfd-id="9">
+                                <h2 class="title" data-selector="h2" style="color: rgb(255, 255, 255); font-size: 25px; background-color: rgba(0, 0, 0, 0); margin-bottom: 0px; margin-top: 0px; font-family: Montserrat;">
+                                    <strong>QUER SABER UM POUCO MAIS?</strong>
+                                </h2>
+                            </div>
+                            <div class="slogan" style="" wfd-id="8">
+                                <h2 class="title" data-selector="h2" style="color: rgb(255, 255, 255); font-size: 18px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 0px; font-family: Montserrat;">Neste vídeo você verá uma simulação em nossa central REAL. Veja como sua vida será mais simples e segura.</h2>
+                            </div>
+                            <a class="btn btn-lg btn-warning goto" href="https://wa.me/5511974921266" style="background: rgb(255, 255, 255); border-color: rgb(255, 255, 255); white-space: normal; color: rgb(223, 2, 9); border-width: 1px; border-radius: 5px; font-size: 20px;" data-selector="a.btn, a.download-btn, button.btn, a.goto" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">
+                                <i class="icon fa fa-whatsapp" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-branco-img-2048407-20191003183730.png" id="ui-id-10" style="color: rgb(204, 0, 0); font-size: 25px; opacity: 1;" alt="Lead Lovers"></i>
+                                <strong>Solicite Orçamento</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-7" data-selector=".col-md-7" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgb(204, 204, 204); border-color: rgb(204, 204, 204); border-radius: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 12px; padding-bottom: 12px; border-width: 1px; border-style: none;" wfd-id="4">
+                            <div class="embed-responsive embed-responsive-16by9" wfd-id="5">
+                                <iframe width="900" height="506" src="https://www.youtube.com/embed/UbacU1eT_Y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- CONTENT-RIGHT BLOCK --><section id="content-right" data-selector="section" alt="screen" src="https://blob.contato.io/machine-user-images/CENTRAL-img-2048407-20191006185053.png" style="background-image: none; background-color: rgba(0, 0, 0, 0); padding-top: 40px; padding-bottom: 40px; border-bottom: 0px none rgb(85, 85, 85); background-repeat: repeat; background-size: auto; background-attachment: scroll;" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <div class="row" wfd-id="4">
+                        <div class="col-md-6" data-selector=".col-md-6" wfd-id="7"><img class="screen" alt="screen" src="https://blob.contato.io/machine-user-images/CENTRAL-img-2048407-20191006185053.png" data-selector="img" style="width: auto; height: auto; border-radius: 0px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;">
+                        </div>
+                        <div class="col-md-5 col-md-offset-1" data-selector=".col-md-5" wfd-id="5">
+                            <div class="editContent" style="" wfd-id="6">
+                                <h2 data-selector="h2" class="" alt="screen" src="https://blob.contato.io/machine-user-images/CENTRAL-img-2048407-20191006185053.png" style="color: rgb(223, 2, 9); font-size: 22px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 10px; font-family: Montserrat;">
+                                    <strong>
+                                        <p style="text-align: center;" data-selector="p">MONITORAMENTO 24 HORAS
+                                        </p>
+                                    </strong>
+                                </h2>
+                                <h4 class="sub-title" data-selector="h4" alt="screen" src="https://blob.contato.io/machine-user-images/CENTRAL-img-2048407-20191006185053.png" style="color: rgb(68, 68, 68); font-size: 17px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 0px; font-family: Montserrat;">
+                                    <p style="text-align: center;" data-selector="p" class="">A central de monitoramento é própria e está preparada para atender chamados 24h por dia, 7 dias por semana, sempre dispostos a manter a sua segurança, através de rondas virtuais de imagens online, verificando seu equipamento e o correto funcionamento de alarmes, câmeras CFTV.
+                                        <br><br>Os profissionais que fazem a gestão da central de monitoramento 24h são rigorosamente selecionados e passam por constantes treinamentos, sempre visando a excelência e o melhor atendimento ao cliente.
+                                    </p>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" wfd-id="3"></div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- CONTENT LEFT BLOCK --><section id="content-left" class="bg-color3" data-selector="section" alt="screen" src="https://blob.contato.io/machine-user-images/RONDA-img-2048407-20191006185056.png" style="background-image: none; background-color: rgb(248, 249, 251); padding-top: 40px; padding-bottom: 40px; border-bottom: 0px none rgb(85, 85, 85); background-repeat: repeat; background-size: auto; background-attachment: scroll;" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <div class="row" wfd-id="3">
+                        <div class="col-md-6 col-md-push-6" data-selector=".col-md-6" wfd-id="5"><img class="screen" alt="screen" src="https://blob.contato.io/machine-user-images/EQUIPAMENTOS-img-2048407-20191006185055.png" data-selector="img" style="width: auto; height: auto; border-radius: 0px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;">
+                        </div>
+                        <div class="col-md-5 col-md-pull-6 editContent" data-selector=".col-md-5" alt="screen" src="https://blob.contato.io/machine-user-images/EQUIPAMENTOS-img-2048407-20191006185055.png" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border-color: rgb(85, 85, 85); border-radius: 0px; margin-top: 40px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 1px; border-style: none;" wfd-id="4">
+                            <h2 data-selector="h2" class="" alt="screen" src="https://blob.contato.io/machine-user-images/RONDA-img-2048407-20191006185056.png" style="color: rgb(223, 2, 9); font-size: 22px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 10px; font-family: Montserrat;">
+                                <strong>
+                                    <p style="text-align: center;" data-selector="p" class="">EQUIPAMENTOS HOMOLOGADOS
+                                    </p>
+                                </strong>
+                            </h2>
+                            <h4 class="sub-title" data-selector="h4" alt="screen" src="https://blob.contato.io/machine-user-images/RONDA-img-2048407-20191006185056.png" style="color: rgb(68, 68, 68); font-size: 17px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px; margin-top: 0px; font-family: Montserrat;">
+                                <p style="text-align: center;" data-selector="p">Todos os equipamentos são testados e homologados, garantindo a melhor performance e qualidade possível em nossa prestação de serviço.
+                                    <br><br>Estamos sempre atentos aos lançamentos, garantindo o que há de mais moderno no mercado.
+                                </p>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- INTRO BLOCK --><section id="intro" class="intro-block bg-color1 dark-bg cover-bg" data-selector="section" style="background-image: url(&quot;/builder/elements/images/bg16.jpg&quot;); background-color: rgb(37, 40, 48); padding-top: 50px; padding-bottom: 50px; border-bottom: 0px none rgb(255, 255, 255); background-repeat: no-repeat; background-size: cover; background-attachment: scroll;" alt="Your Icon" src="builder/elements/images//icon.png" wfd-id="1">
+                <div class="container" wfd-id="3">
+                    <div class="row" wfd-id="4">
+                        <div class="col-md-6" data-selector=".col-md-6" wfd-id="5">
+                            <div class="logo" wfd-id="12"></div>
+                            <div class="slogan" style="" wfd-id="6">
+                                <h1 data-selector="h1" class="" alt="Your Icon" src="builder/elements/images//icon.png" style="color: rgb(255, 255, 255); font-size: 25px; background-color: rgba(0, 0, 0, 0); margin-bottom: 10px; margin-top: 20px; font-family: Montserrat;">
+                                    <strong>UM APLICATIVO INCRÍVEL</strong>
+                                </h1>
+                                <strong>O controle da sua portaria na palma de sua mão!<br></strong><br><ul wfd-id="7">
+                                    <li wfd-id="11">✔ Permite o condômino criar e gerenciar a lista de convidados;
+                                    </li>
+                                    <li wfd-id="10">✔ Reserva de espaços;</li>
+                                    <li wfd-id="9">✔ Abertura de ocorrências;</li>
+                                    <li wfd-id="8">✔ Registro de sugestões e reclamações.
+                                    </li>
+                                </ul><br></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-half container-half-right contain-bg" style="background-image: url(&quot;https://blob.contato.io/machine-user-images/intro-screen2-img-2048407-20191006190023.png&quot;); background-color: rgba(0, 0, 0, 0); background-size: contain; background-attachment: scroll; background-position: center top;" data-selector=".container-half" alt="Your logo" src="https://blob.contato.io/machine-user-images/logo-atende-sem-slogan-img-2048407-20191003183731.png" wfd-id="2"></div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script><!-- INTRO LINE BLOCK --><section id="intro-line" class="intro-block bg-color2 dark-bg fixed-bg half-padding" data-selector="section" style="background-color: rgb(223, 2, 9); padding-top: 60px; padding-bottom: 60px; border-bottom: 0px none rgb(255, 255, 255); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-image: none;" alt="Your Icon" src="builder/elements/images//icon.png" wfd-id="1">
+                <div class="container" wfd-id="2">
+                    <div class="row" wfd-id="3">
+                        <div class="col-md-8" data-selector=".col-md-8" wfd-id="5">
+                            <h1 class="title" data-selector="h1" alt="Your Icon" src="builder/elements/images//icon.png" style="color: rgb(255, 255, 255); font-size: 35px; background-color: rgba(0, 0, 0, 0); margin-bottom: 10px; margin-top: 0px; font-family: Montserrat;">A ATENDE PORTARIA tem a solução para o seu controle de acesso.</h1>
+                            <p class="editContent" data-selector="p" alt="Your Icon" src="builder/elements/images//icon.png" style="color: rgb(255, 255, 255); font-size: 18px; background-color: rgba(0, 0, 0, 0); font-family: Montserrat;">Conheça um novo jeito de fazer portaria.</p>
+                        </div>
+                        <div class="col-md-4 text-right" data-selector=".col-md-4" alt="Your Icon" src="builder/elements/images//icon.png" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border-color: rgb(255, 255, 255); border-radius: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 0px; border-width: 1px; border-style: none;" wfd-id="4">
+                            <a class="btn btn-lg btn-default-white wow bounce" href="https://mkt.atendeportaria.com.br/formulario-orcamento" style="white-space: normal; color: rgb(223, 2, 9); border-color: rgb(255, 255, 255); border-width: 1px; border-radius: 5px; font-size: 20px; background-color: rgb(255, 255, 255);" data-selector="a.btn, a.download-btn, button.btn, a.goto" alt="Your Icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" data-wow-duration="1s" data-wow-delay="1s">
+                                <i class="icon fa fa-whatsapp" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-branco-img-2048407-20191003183730.png" id="ui-id-10" style="color: rgb(204, 0, 0); font-size: 25px; opacity: 1;" alt="Lead Lovers"></i>
+                                <strong>Solicite Orçamento</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script type="text/javascript" src="builder/elements/scripts/html5shiv.js"></script>
+            <script type="text/javascript" src="builder/elements/scripts/respond.min.js"></script>
+            <section class="row" id="rodape" style="background: none 0% 0% / auto repeat scroll rgb(255, 255, 255); padding-top: 30px; padding-bottom: 30px; border-bottom: 0px none rgb(85, 85, 85);" data-selector="section" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" alt="Lead Lovers" wfd-id="1">
+                <div class="container" wfd-id="4">
+                    <div class="col-md-2" data-selector=".col-md-2" wfd-id="23">
+                        <a href="https://www.atendeportaria.com.br/" data-selector="a, a.btn, button.btn" target="_blank"><img class="center-block img-responsive" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" data-selector="img" style="width: 150px; height: 61px; border-radius: 0px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"></a>
+                    </div>
+                    <div class="col-md-3" data-selector=".col-md-3" wfd-id="19">
+                        <div class="row" wfd-id="22"></div>
+                        <div class="row" wfd-id="21"></div>
+                        <div class="row" wfd-id="20">
+                            <p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 13px; margin-bottom: 30px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">
+                                <strong>Fale conosco:</strong><br><a href="mailto:comercial@atendeportaria.com.br">comercial@atendeportaria.com.br</a><br>(11) 3033-9313</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2" data-selector=".col-md-2" wfd-id="11">
+                        <ul class="links-list" style="" wfd-id="12">
+                            <li wfd-id="18">
+                                <a href="https://www.atendeportaria.com.br/sobre" target="_blank">
+                                    <p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">SOBRE</p>
+                                </a>
+                            </li>
+                            <li wfd-id="17">
+                                <a href="https://www.atendeportaria.com.br/faq" target="_blank">
+                                    <p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">FAQ</p>
+                                </a>
+                            </li>
+                            <li wfd-id="16">
+                                <a href="https://www.atendeportaria.com.br/seja-um-franqueado" target="_blank"></a>
+                            </li>
+                            <li wfd-id="15">
+                                <a href="" target="_blank"></a>
+                            </li>
+                            <li wfd-id="14">
+                                <a href="" target="_blank"></a>
+                            </li>
+                            <li wfd-id="13">
+                                <a href="" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3" data-selector=".col-md-3" wfd-id="5">
+                        <ul class="soc-list" wfd-id="6">
+                            <li wfd-id="10">
+                                <a href="https://www.facebook.com/atendeportariaremota/" target="_blank" data-selector=".footer a">
+                                    <i class="icon fa fa-facebook-square" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-6"></i>
+                                </a>
+                            </li>
+                            <li wfd-id="9">
+                                <a href="https://www.youtube.com/AtendePortaria?sub_confirmation=1" target="_blank" data-selector=".footer a">
+                                    <i class="icon fa fa-youtube" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-7"></i>
+                                </a>
+                            </li>
+                            <li wfd-id="8">
+                                <a href="https://www.instagram.com/atendeportaria/" target="_blank" data-selector=".footer a">
+                                    <i class="icon fa fa-instagram" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" id="ui-id-12" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;"></i>
+                                </a>
+                            </li>
+                            <li wfd-id="7">
+                                <a href="https://mkt.atendeportaria.com.br/redirect-wpp" target="_blank" data-selector=".footer a">
+                                    <i class="icon fa fa-whatsapp" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-8"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container text-center" style="border-top: 2px solid rgb(146, 146, 146); padding-top: 30px;" wfd-id="2">
+                    <p class="editContent" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0); font-family: Montserrat;">
+                        <strong>© 2020 ATENDE PORTARIA. Todos os direitos reservados.</strong><br style="transition-timing-function: ease-in-out; transition-duration: 0.2s; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 500; text-align: center; background-color: rgb(0, 0, 0);"><strong>Desenvolvido por:
+                        </strong>
+                        <a href="https://valordeumaideia.com.br/" target="_blank" "=" ">
+                            <span style="color: rgb(127, 127, 127);" wfd-id="3">VALOR DE UMA IDEIA</span>
+                        </a>
+                    </p>
+                </div>
+            </section>
+        </div><!-- /#wrap --><!-- MODALS BEGIN--><div role="dialog" tabindex="-1" aria-hidden="true" id="modalMessage" class="modal fade" wfd-id="0">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" wfd-id="2">×</button>
+                    <h3 class="modal-title">&nbsp;</h3>
+                </div>
+            </div>
+        </div><!-- MODALS END--><!-- JavaScript --><script src="builder/elements/scripts/bootstrap.min.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.validate.min.js" defer=""></script>
+        <script src="builder/elements/scripts/smoothscroll.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.smooth-scroll.min.js" defer=""></script>
+        <script src="builder/elements/scripts/placeholders.jquery.min.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.magnific-popup.min.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.counterup.min.js" defer=""></script>
+        <script src="builder/elements/scripts/waypoints.min.js" defer=""></script>
+        <script src="builder/elements/scripts/video.js" defer=""></script>
+        <script src="builder/elements/scripts/bigvideo.js" defer=""></script>
+        <script src="builder/elements/scripts/animations/wow.min.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.jCounter-0.1.4.js" defer=""></script>
+        <script src="builder/elements/scripts/jquery.autogrow-textarea.js" defer=""></script>
+        <script src="scripts/globalize/globalize.js" defer=""></script>
+        <script src="scripts/globalize/cultures/globalize.culture.pt-BR.js" defer=""></script>
+        <script src="builder/elements/scripts/custom.js" defer=""></script>
+        <script src="builder/elements/scripts/popup.js" defer=""></script>
+        <script src="https://blob.contato.io/machine-files/builder/navdropdown.js" defer=""></script><!--menudropdown--><!--<script src="https://blob.contato.io/machine-files/builder/exitpop.js"></script>--><!--<script src="https://blob.contato.io/machine-files/builder/pop-exit.js" defer></script>--><script src="https://blob.contato.io/machine-files/amodels/webflow.js" defer=""> </script>
+        <style>
+            .btn:hover,
+            .btn:focus,
+            .btn:active {
+                background-color: #00bd00 !important;
+                border: none;
+            }
+        </style>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZCM3GQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    </body>
+</html>
+
+
+<link href="Content/carousel.v2.css" rel="stylesheet"/>
+<link href="Contents/page-advertising?v=OIjdLiP3zDbbwyGzc4HCP78v7aQq62NmROEun6odIEE1" rel="stylesheet" type="text/css" async/>
+<script src="bundles/globalize?v=Z7dQo83eosj7yLn2TxGEoPKpiluP65U_S4JHNU9GjkM1" type="text/javascript" async></script>
+<script src="bundles/page-views?v=RFS_9pcQpAX3kK36TH6nfMX6edR9IzqGFT5-MduLznc1" type="text/javascript" async></script>
+<script type="text/javascript">
+    var _pageID = parseInt('12787038');
+    var _pageType = parseInt('5');
+    var _redirectID = parseInt('0');
+    var _machineID = parseInt('318437');
+    var _chatCode = '';
+    var _leadSource = '';
+    var _leadSCK = '';
+    var _clientLang = 'pt-BR';
+    var _isTest = Boolean(parseInt('0'));
+    var _isMultiCapture = Boolean(parseInt('0'));
+    var _LGPDConsentText = '';
+    var _LGPDLinkTerms = '';
+    var _LGPDUrlTerms = '';
+    var _facebookApiConversionPixels = '';
+
+    var _cfIpCountry = '';
+    var _cfHostname = '';
+</script>
+<script src="scripts/jquery.form.js" async></script>
+<script src="bundles/page-capform?v=KNHAZZuHsaBypgrGEGz6ldaVigcr0IqAbNnKRPnF7Oo1" type="text/javascript" async></script>

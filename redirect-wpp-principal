@@ -1,0 +1,274 @@
+
+
+
+<!-- redirect -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <!-- META Tags for Google -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="copyright" content="https://mkt.atendeportaria.com.br/redirect-wpp-principal" />
+    <meta name="application-name" content="PRINCIPAL" />
+    <meta name="image" content="" />
+    <!-- META Tags for Facebook -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://mkt.atendeportaria.com.br/redirect-wpp-principal" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="PRINCIPAL" />
+    <meta property="og:locale" content="pt_BR">
+    <!-- META Tags for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Other META Tags -->
+    
+    <!-- FAV icon -->
+        <link rel="shortcut icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" />
+        <link rel="icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" />
+    <link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400' rel='stylesheet' type='text/css' async>
+    <link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css' async>
+    <link href='//fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css' async>
+    <link href="/Content/css?v=Bo4ylsFxJDO2NuAqvgMxxbub2wBu0FjgfTItfi8_Ij01" rel="stylesheet" type="text/css" async />
+    <link href="/Contents/page-advertising?v=OIjdLiP3zDbbwyGzc4HCP78v7aQq62NmROEun6odIEE1" rel="stylesheet" type="text/css" async />
+    <script src="/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1" type="text/javascript"></script>
+    <script src="/bundles/globalize?v=Z7dQo83eosj7yLn2TxGEoPKpiluP65U_S4JHNU9GjkM1" type="text/javascript" async></script>
+        <!-- Scripts Head -->
+<!-- Global site tag (gtag.js) - Google Ads: 717512696 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-717512696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-717512696');
+</script>
+<!-- Event snippet for Solicitar orçamento conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-717512696/Ye_3CKrn-9oBEPi_kdYC'});
+</script>            <!-- Machine General Scripts -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3093622390709313');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3093622390709313&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 717512696 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-717512696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-717512696');
+</script>
+
+<!-- Smartlook Code -->
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'd5c6875e54ee0efdf8e55160e55d2e82469705cc');
+</script>        </head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'><script type="text/javascript">    
+    
+    $(document).ready(function() {
+    	document.title = 'ATENDE PORTARIA - Solicite um orçamento agora!';    	
+    	var valueRedirect = "https://bit.ly/wpp2-atendeportaria";
+        // manipulate dom elements by type...
+        $('.type0, .type1, .type2').hide();
+        $('.type' + _redirectTYPE).show();
+        if (_redirectTYPE == 1 || _redirectTYPE == 2)
+            $('body').css({ background: "none" });
+        // set redirect by type...
+        if (valueRedirect != "" && valueRedirect != 'https://www.leadlover.com.br') {    
+            if (_redirectTYPE == 0 || _redirectTYPE == 2) {
+                if ($(location)[0].search != null && $(location)[0].search != undefined && $(location)[0].search != '' && keepParameters)
+                    valueRedirect += valueRedirect.indexOf('?') >= 0 ? $(location)[0].search.replace('?','&') : $(location)[0].search;    
+                if ($(location)[0].origin.indexOf('https://leadlover.com') >= 0 && valueRedirect.indexOf('https') == -1) 
+                    setTimeout(function() { top.window.location.href = valueRedirect; }, 0 * 1000);          
+                else 
+                    setTimeout(function() { window.location.assign(valueRedirect); }, 0 * 1000);    
+            }
+            else
+                $('#redirectIframe').attr('src', valueRedirect);
+        }
+    });
+
+</script><style>html, body, .type1 {
+        height: 100% !important;
+    }
+    body {
+        background-image: url(https://llbr.blob.core.windows.net/machine-page-backgrounds/machine-bg-028.jpg);
+        background-color: #ffffff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .type1 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    iframe#redirectIframe {
+        height: 100%;
+        width: 100%;
+    }    
+
+    @media screen and (min-width: 320px) {
+        .spacing { margin-top: 40%; margin-left: 0%;}	
+    }
+    @media screen and (min-width: 480px) {
+        .spacing { margin-top: 40%; margin-left: 5%; }
+    }
+    @media screen and (min-width: 640px) {
+        .spacing { margin-top: 10%; margin-left: 40%; }
+    }
+    @media screen and (min-width: 768px) {
+        .spacing { margin-top: 13%; margin-left: 40%;}
+    }
+    @media screen and (min-width: 864px) {
+        .spacing { margin-top: 15%; margin-left: 40%;}
+    }
+    @media screen and (min-width: 992px) {
+        .spacing { margin-top: 17%;margin-left: -10%; }
+    }
+    @media screen and (min-width: 1200px) {
+        .spacing { margin-top: 18%; margin-left: -10%;}
+    }
+    @media screen and (min-width: 1400px) {
+        .spacing { margin-top: 22%; margin-left: -12%;}
+    }
+    @media screen and (min-width: 1570px) {
+        .spacing { margin-top: 25%; margin-left: -12%;}
+    }	
+    @media screen and (min-width: 1720px) {
+        .spacing { margin-top: 27%; margin-left: -5%;}
+    }
+    @media screen and (min-width: 1920px) {
+        .spacing { margin-top: 32%; margin-left: -10%;}
+    }
+    h1 { color: #2B494B; font-family: 'Lato', Tahoma, Arial; font-size: 28px; line-height: 40px; }
+    h2 { color: #428bca; font-family: 'Lato', Tahoma, Arial; font-size: 18px; }
+</style><div class="container type0"><div class="row spacing"><div class="col-md-6"></div><div id="texto1" class="col-md-6 text-left"><i class="fa fa-fw fa-spinner fa-spin" style="font-size: 120px; margin-bottom: 20px;"></i><h1>Aguarde...</h1></div></div></div><div class="container type2">&nbsp;</div><div class="container-fluid type1"><iframe id="redirectIframe" src="about:blank"></iframe></div>
+    
+            <!-- Page Scripts Body -->
+<script>
+function onClick() {
+fbq('track', 'Lead');
+};
+</script>    <!-- ResXtoJS -->
+<script type="text/javascript">
+    var BuilderScriptsResources = {
+        Background: 'BOTTOM',
+        BackUpRecoveredSuccess: 'Backup retrieved successfully!',
+        Border: 'EDGES',
+        BoxProperties: 'The properties Box',
+        Button: 'BUTTON',
+        ButtonProperties: 'Button properties',
+        ChangeDate: 'Change date',
+        ChangesHistory: 'Change history',
+        Configurations: 'Settings',
+        ConfirmVersionRecover: 'Confirm the version of',
+        Design: 'Design',
+        Dimensions: 'DIMENSIONS',
+        EditorExempleMessage1: 'Therefore, the new structural model proposed here requires us to analysis of vertical relationships between hierarchies.',
+        EditorExempleMessage2: 'Thinking over the long term, the rise of virtual trade provides a better overview of the development guidelines for the future.',
+        EditorExempleMessage3: 'It is clear that the increased dialogue between the different productive sectors offers an interesting opportunity for verification of forms of action.',
+        Fields: 'Fields',
+        FormProperties: 'Form properties',
+        GeneratingPagePreview: 'Generating preview of the page...',
+        GeneratingPreviewSuccess: 'Preview generated successfully.',
+        HeadlineProperties: 'Headline properties',
+        Icon: 'ICON',
+        ImageProperties: 'Image properties',
+        Label: 'LABEL',
+        Link: 'LINK',
+        Margin: 'BANKS',
+        No: 'NO',
+        NoFieldFound: 'No field found!',
+        NothingNewToSave: 'Nothing new to save',
+        NotPossibleRecoverForm: 'It wasn\'t possible toretrieve the form fields',
+        PageName: 'Name of the page',
+        PageNamePlaceholder: 'Enter the name of the page',
+        PageSavedSuccess: 'Page saved successfully!',
+        Positioning: 'POSITIONING',
+        PreviewGenerated: 'Preview Generated!',
+        PreviewPageError: 'Error generating preview page!',
+        PropertiesOfThePage: 'Page properties',
+        Recover: 'retrieve',
+        Remove: 'Remove',
+        Reset: 'Reset',
+        Save: 'Save',
+        SaveBlock: 'Save Block',
+        SavePageData: 'Saving data on the page.',
+        Saving: 'Saving ... Hold on!',
+        SelectPage: 'Select a page',
+        Spacing: 'SPACING',
+        TextAndDesign: 'TEXT & DESIGN',
+        TextField: 'TEXT FIELD',
+        TextProperties: 'Text properties',
+        TryBeta: 'Try the Beta editor',
+        VideoProperties: 'Video properties',
+        Visualize: 'Show',
+        Wait: 'Hold on',
+        WaitDots: 'Hold on...',
+        WaitLowcaps: 'Hold on',
+        Yes: 'YES'
+    };
+</script>
+
+    <script src="/scripts/jquery.form.js" async></script>
+    <script src="/bundles/jquery-mask?v=AMCHGeZwlDmWLZIYLrJi5-22PDQURd0uAiPTnlqwDWI1" type="text/javascript" async></script>
+    <script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1" type="text/javascript" async></script>
+    <script src="/bundles/page-capform?v=KNHAZZuHsaBypgrGEGz6ldaVigcr0IqAbNnKRPnF7Oo1" type="text/javascript" async></script>
+    <script src="/bundles/page-views?v=RFS_9pcQpAX3kK36TH6nfMX6edR9IzqGFT5-MduLznc1" type="text/javascript" async></script>
+    <script type="text/javascript">
+        var _pageID = parseInt('16427555');
+        var _pageType = parseInt('23');
+        var _redirectID = parseInt('0');
+        var _redirectTYPE = parseInt('0');
+        var _machineID = parseInt('318437');
+        var _chatCode = '';
+        var _leadSource = '';
+        var _leadSCK = '';
+        var _fbURL = '';
+        var _clientLang = 'pt-BR';
+        var _isTest = Boolean(parseInt('0'));
+        var _isMultiCapture = Boolean(parseInt('0'));
+        var keepParameters = Boolean(0);
+        var _LGPDConsentText = '';
+        var _LGPDLinkTerms = '';
+        var _LGPDUrlTerms = '';
+        var _facebookApiConversionPixels = '';
+        $(document).ready(function () {
+            $('a[href^="https://apps.facebook.com/"]').attr('target', '_top');
+        });
+    </script>
+            </body>
+</html>

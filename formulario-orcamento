@@ -1,0 +1,180 @@
+
+
+<!-- dynamic capture builder -->
+<!DOCTYPE html><html><head><meta property="og:locale" content="pt_BR"><meta property="og:type" content="website"><meta property="og:title" content="ATENDE PORTARIA - Solicite Orçamento"><meta name="twitter:title" content="ATENDE PORTARIA - Solicite Orçamento"><meta property="og:site_name" content="PRINCIPAL"><meta name="application-name" content="PRINCIPAL"><meta property="og:description" content="Fale com nossa equipe agora mesmo."><meta name="twitter:description" content="Fale com nossa equipe agora mesmo."><meta name="description" content="Fale com nossa equipe agora mesmo."><style type="text/css">.modal-open{overflow:hidden}.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;display:none;overflow:auto;overflow-y:scroll}.modal.fade .modal-dialog{-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);transform:translate(0,-25%);-webkit-transition:-webkit-transform .3s ease-out;-moz-transition:-moz-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out}.modal.in .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}.modal-dialog{position:relative;z-index:1050;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,0.2);border-radius:6px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5);box-shadow:0 3px 9px rgba(0,0,0,0.5);background-clip:padding-box}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1030;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{min-height:16.428571429px;padding:15px;border-bottom:1px solid #e5e5e5}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.428571429}.modal-body{position:relative;padding:20px;min-height:300px}.modal-footer{padding:19px 20px 20px;margin-top:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{display:table;content:" "}.modal-footer:after{clear:both}.modal-footer:before,.modal-footer:after{display:table;content:" "}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-bottom:0;margin-left:5px}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}@media screen and (min-width:768px){.modal-dialog{width:600px;margin:30px auto}.modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,0.5);box-shadow:0 5px 15px rgba(0,0,0,0.5)}}.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:normal;line-height:1.428571429;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary{color:#fff;background-color:#3276b1;border-color:#285e8e}</style><title>ATENDE PORTARIA - Solicite Orçamento</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!--pageMeta--><!-- Loading Bootstrap --><link rel="stylesheet" href="/builder/elements/css/bootstrap.css"><!-- Loading Elements Styles --><link rel="stylesheet" href="/builder/elements/css/style.css"><!-- Loading Magnific-Popup Styles --><link href="/Content/font-awesome.css" rel="stylesheet" type="text/css"><!-- Fontawesome atualizado --><link href="//fonts.googleapis.com/css?family=Roboto:400,300,500,700,900" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/builder/elements/css/magnific-popup.css"><!-- Loading Font Styles --><link rel="stylesheet" href="/builder/elements/css/iconfont-style.css"><!-- WOW Animate--><link rel="stylesheet" href="/builder/elements/scripts/animations/animate.css"><!-- Favicons --><link rel="stylesheet" href="/builder/elements/css/popup.css"><!-- Popup --><link rel="stylesheet" href="https://blob.contato.io/machine-files/builder/menudrop.css"><!--menu-dropdown--><link rel="icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" sizes="72x72"><link rel="apple-touch-icon" href="https://blob.contato.io/machines-favicon/machine-318437-favicon.png" sizes="114x114"><!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. --><!--js libs--><script src="/builder/elements/scripts/jquery-1.11.2.min.js"></script><script src="/builder/elements/scripts/html5shiv.js" defer=""></script><script src="/builder/elements/scripts/respond.min.js" defer=""></script><!--headerIncludes--><link href="https://blob.contato.io/machine-files/builder/allpages.builder.css" rel="stylesheet" type="text/css"><style type="text/css">#fields-box > .form-group {
+          margin-bottom: 2%;
+      }
+      #fields-box > .form-group > .form-control {
+          background-color: #505050; 
+          color: #fff; 
+          padding-left: 2%;
+      }
+      #fields-box label {
+          display: none !important;
+      }
+      #fields-box label.fixed {
+          color: #d4d4d4 !important;
+          display: block !important;
+      }
+      #fields-box > .form-group > label.fixed {
+          font-size: 18px !important;
+          font-weight: 500 !important;
+      }
+      #fields-box input[type=checkbox] {
+          -webkit-appearance: checkbox !important;
+          -moz-appearance:    checkbox !important;
+          appearance:         checkbox !important;
+      }
+      #fields-box input[type=radio] {
+          -webkit-appearance: radio !important;
+          -moz-appearance:    radio !important;
+          appearance:         radio !important;
+      }
+      #fields-box input[type=checkbox]:focus,
+      #fields-box input[type=radio]:focus{
+          margin-left: -20px;
+          width:auto !important;
+      }
+      #fields-box select.form-control {
+          border: none !important;
+          border-radius: 0 !important;
+          font-size: 17px !important;
+          height: 68px !important;
+          outline: none !important;
+          box-shadow: none !important;
+      }</style><style type="text/css">#fields-box > .form-group {
+          margin-bottom: 2%;
+      }
+      #fields-box > .form-group > .form-control {
+          background-color: #505050; 
+          color: #fff; 
+          padding-left: 2%;
+      }
+      #fields-box label {
+          display: none !important;
+      }
+      #fields-box label.fixed {
+          color: #d4d4d4 !important;
+          display: block !important;
+      }
+      #fields-box > .form-group > label.fixed {
+          font-size: 18px !important;
+          font-weight: 500 !important;
+      }
+      #fields-box input[type=checkbox] {
+          -webkit-appearance: checkbox !important;
+          -moz-appearance:    checkbox !important;
+          appearance:         checkbox !important;
+      }
+      #fields-box input[type=radio] {
+          -webkit-appearance: radio !important;
+          -moz-appearance:    radio !important;
+          appearance:         radio !important;
+      }
+      #fields-box input[type=checkbox]:focus,
+      #fields-box input[type=radio]:focus{
+          margin-left: -20px;
+          width:auto !important;
+      }
+      #fields-box select.form-control {
+          border: none !important;
+          border-radius: 0 !important;
+          font-size: 17px !important;
+          height: 68px !important;
+          outline: none !important;
+          box-shadow: none !important;
+      }</style><!-- Event snippet for Solicitar orçamento conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-717512696/Ye_3CKrn-9oBEPi_kdYC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script><!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3093622390709313');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3093622390709313&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 717512696 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-717512696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-717512696');
+</script>
+
+<!-- Smartlook Code -->
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'd5c6875e54ee0efdf8e55160e55d2e82469705cc');
+</script></head><body data-target=".navMenuCollapse" data-spy="scroll" class="vsc-initialized"><!--PRELOADER--><div id="wrap"><section class="row" style="background: none 0% 0% / auto repeat scroll rgb(204, 0, 0); padding-top: 100px; padding-bottom: 100px; border-bottom: 0px none rgb(85, 85, 85);" data-selector="section"><div class="container"><div class="col-md-6" data-selector=".col-md-6" style="background-image: none; background-repeat: repeat; background-size: auto; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border-color: rgb(85, 85, 85); border-radius: 0px; margin-top: 50px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 1px; border-style: none;"><h2 style="color: rgb(255, 255, 255); margin-top: 16px; font-family: Montserrat; font-size: 30px; background-color: rgba(0, 0, 0, 0); margin-bottom: 30px;" data-selector="h2" class=""><p style="text-align: center;" data-selector="p" class="">Insira seus dados e fale conosco agora mesmo!
+</p></h2><p class="content" style="color: rgb(255, 255, 255); font-family: Montserrat;" data-selector="p"></p><p style="text-align: center; color: rgb(255, 255, 255); font-size: 22px; background-color: rgba(0, 0, 0, 0); font-family: Montserrat;" data-selector="p" class="">Após clicar em "Enviar" você será redirecionado para uma conversa no WhatsApp.
+</p><p data-selector="p"></p><ul class="data-list editContent" style="margin-top: 4%;"><li></li><li></li><li></li></ul></div><div class="col-md-6 text-right" data-selector=".col-md-6"><form role="form" action="" method="POST" data-selector="form" data-dynamic="true" class=""><div id="fields-box" class="text-left"><input type="hidden" id="hdn-dynamic-fields-380" name="hdn-dynamic-fields" value="[{&quot;id&quot;:&quot;32247&quot;,&quot;block&quot;:380,&quot;type&quot;:1,&quot;name&quot;:&quot;Nome&quot;,&quot;label&quot;:&quot;Insira seu nome&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32245&quot;,&quot;block&quot;:380,&quot;type&quot;:8,&quot;name&quot;:&quot;E-mail&quot;,&quot;label&quot;:&quot;Informe seu e-mail&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32256&quot;,&quot;block&quot;:380,&quot;type&quot;:4,&quot;name&quot;:&quot;Telefone&quot;,&quot;label&quot;:&quot;(DDD) Telefone / WhatsApp&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32249&quot;,&quot;block&quot;:380,&quot;type&quot;:5,&quot;name&quot;:&quot;Cargo&quot;,&quot;label&quot;:&quot;No condomínio você é&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32253&quot;,&quot;block&quot;:380,&quot;type&quot;:5,&quot;name&quot;:&quot;Estado&quot;,&quot;label&quot;:&quot;Estado&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32254&quot;,&quot;block&quot;:380,&quot;type&quot;:2,&quot;name&quot;:&quot;Cidade&quot;,&quot;label&quot;:&quot;Sua cidade&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;32255&quot;,&quot;block&quot;:380,&quot;type&quot;:2,&quot;name&quot;:&quot;Bairro&quot;,&quot;label&quot;:&quot;Seu Bairro&quot;,&quot;required&quot;:true}]"><div class="form-group"><label for="llfield32247">Insira seu nome</label><input type="text" id="llfield32247" name="llfield32247" placeholder="Insira seu nome" class="form-control" data-required="true"><div class="field-error" id="llerror32247"></div></div><div class="form-group"><label for="llfield32245">Informe seu e-mail</label><input type="email" id="llfield32245" name="llfield32245" placeholder="Informe seu e-mail" class="form-control" data-required="true"><div class="field-error" id="llerror32245"></div></div><div class="form-group"><label for="llfield32256">(DDD) Telefone / WhatsApp</label><input type="tel" id="llfield32256" name="llfield32256" placeholder="(DDD) Telefone / WhatsApp" class="form-control" data-required="true"><div class="field-error" id="llerror32256"></div></div><div class="form-group"><label for="llfield32249" class="fixed">No condomínio você é</label><select id="llfield32249" name="llfield32249" placeholder="No condomínio você é" class="form-control"><option value="Síndico morador">Síndico morador</option><option value="Síndico profissional">Síndico profissional</option><option value="Conselheiro">Conselheiro</option><option value="Morador">Morador</option><option value="Consultor">Consultor</option><option value="Construtora">Construtora</option><option value="Administradora de condomínio">Administradora de condomínio</option><option value="Visitante">Visitante</option><option value="Outro">Outro</option></select><div class="field-error" id="llerror32249"></div></div><div class="form-group"><label for="llfield32253" class="fixed">Estado</label><select id="llfield32253" name="llfield32253" placeholder="Estado" class="form-control"><option value="AC">AC</option><option value="AL">AL</option><option value="AM">AM</option><option value="AP">AP</option><option value="BA">BA</option><option value="CE">CE</option><option value="DF">DF</option><option value="ES">ES</option><option value="GO">GO</option><option value="MA">MA</option><option value="MG">MG</option><option value="MS">MS</option><option value="MT">MT</option><option value="PA">PA</option><option value="PB">PB</option><option value="PE">PE</option><option value="PI">PI</option><option value="PR">PR</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RO">RO</option><option value="RR">RR</option><option value="RS">RS</option><option value="SC">SC</option><option value="SE">SE</option><option value="SP">SP</option><option value="TO">TO</option></select><div class="field-error" id="llerror32253"></div></div><div class="form-group"><label for="llfield32254">Sua cidade</label><textarea id="llfield32254" name="llfield32254" placeholder="Sua cidade" class="form-control"></textarea><div class="field-error" id="llerror32254"></div></div><div class="form-group"><label for="llfield32255">Seu Bairro</label><textarea id="llfield32255" name="llfield32255" placeholder="Seu Bairro" class="form-control"></textarea><div class="field-error" id="llerror32255"></div></div></div><button onclick="fbq('track', 'Lead');" id="submit" class="btn btn-md btn-danger" style="margin-top: 3%; font-family: Montserrat; background: rgb(2, 154, 2); border-color: rgb(255, 255, 255); white-space: normal; color: rgb(255, 255, 255); border-width: 1px; border-radius: 4px; font-size: 17px;" data-selector="a.btn, a.download-btn, button.btn, a.goto"><strong>ENVIAR</strong></button></form></div></div></section><section class="row" id="rodape" style="background: none 0% 0% / auto repeat scroll rgb(255, 255, 255); padding-top: 30px; padding-bottom: 30px; border-bottom: 0px none rgb(85, 85, 85);" data-selector="section" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" alt="Lead Lovers"><div class="container"><div class="col-md-2" data-selector=".col-md-2"><a href="https://www.atendeportaria.com.br/" data-selector="a, a.btn, button.btn" target="_blank"><img class="center-block img-responsive" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" data-selector="img" style="width: 150px; height: 61px; border-radius: 0px; border-color: rgb(85, 85, 85); border-style: none; border-width: 1px;"></a></div><div class="col-md-3" data-selector=".col-md-3"><div class="row"></div><div class="row"></div><div class="row"><p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 13px; margin-bottom: 30px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png"><strong>Fale conosco:</strong><br><a href="mailto:comercial@atendeportaria.com.br">comercial@atendeportaria.com.br</a><br>(11) 3033-9313</p></div></div><div class="col-md-2" data-selector=".col-md-2"><ul class="links-list" style=""><li><a href="https://www.atendeportaria.com.br/sobre" target="_blank"><p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">SOBRE</p></a></li><li><a href="https://www.atendeportaria.com.br/faq" target="_blank"><p class="content" style="font-family: Montserrat; color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0);" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png">FAQ</p></a></li><li><a href="https://www.atendeportaria.com.br/seja-um-franqueado" target="_blank"></a></li><li><a href="" target="_blank"></a></li><li><a href="" target="_blank"></a></li><li><a href="" target="_blank"></a></li></ul></div><div class="col-md-3" data-selector=".col-md-3"><ul class="soc-list"><li><a href="https://www.facebook.com/atendeportariaremota/" target="_blank" data-selector=".footer a"><i class="icon fa fa-facebook-square" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-6"></i></a></li><li><a href="https://www.youtube.com/AtendePortaria?sub_confirmation=1" target="_blank" data-selector=".footer a"><i class="icon fa fa-youtube" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-7"></i></a></li><li><a href="https://www.instagram.com/atendeportaria/" target="_blank" data-selector=".footer a"><i class="icon fa fa-instagram" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" id="ui-id-12" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;"></i></a></li><li><a href="https://bit.ly/wpp2-atendeportaria" target="_blank" data-selector=".footer a"><i class="icon fa fa-whatsapp" data-selector=".icon" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 20px; opacity: 1;" id="ui-id-8"></i></a></li></ul></div></div><div class="container text-center" style="border-top: 2px solid rgb(146, 146, 146); padding-top: 30px;"><p class="editContent" data-selector="p" src="https://blob.contato.io/machine-user-images/logo-atende-img-2048407-20191003183729.png" style="color: rgb(68, 68, 68); font-size: 12px; background-color: rgba(0, 0, 0, 0); font-family: Montserrat;"><strong>© 2020 ATENDE PORTARIA. Todos os direitos reservados.</strong><br style="transition-timing-function: ease-in-out; transition-duration: 0.2s; color: rgb(255, 255, 255); font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 500; text-align: center; background-color: rgb(0, 0, 0);"><strong>Desenvolvido por: </strong><a href="https://valordeumaideia.com.br/" target="_blank" "=""><span style="color: rgb(127, 127, 127);">VALOR DE UMA IDEIA</span></a></p></div></section></div><!-- /#wrap --><!-- MODALS BEGIN--><div role="dialog" tabindex="-1" aria-hidden="true" id="modalMessage" class="modal fade"><div class="modal-dialog"><div class="modal-content"><button aria-hidden="true" class="close" data-dismiss="modal">×</button><h3 class="modal-title">&nbsp;</h3></div></div></div><!-- MODALS END--><!-- JavaScript --><script src="/builder/elements/scripts/bootstrap.min.js" defer=""></script><script src="/builder/elements/scripts/jquery.validate.min.js" defer=""></script><script src="/builder/elements/scripts/smoothscroll.js" defer=""></script><script src="/builder/elements/scripts/jquery.smooth-scroll.min.js" defer=""></script><script src="/builder/elements/scripts/placeholders.jquery.min.js" defer=""></script><script src="/builder/elements/scripts/jquery.magnific-popup.min.js" defer=""></script><script src="/builder/elements/scripts/jquery.counterup.min.js" defer=""></script><script src="/builder/elements/scripts/waypoints.min.js" defer=""></script><script src="/builder/elements/scripts/video.js" defer=""></script><script src="/builder/elements/scripts/bigvideo.js" defer=""></script><script src="/builder/elements/scripts/animations/wow.min.js" defer=""></script><script src="/builder/elements/scripts/jquery.jCounter-0.1.4.js" defer=""></script><script src="/builder/elements/scripts/jquery.autogrow-textarea.js" defer=""></script><script src="/scripts/globalize/globalize.js" defer=""></script><script src="/scripts/globalize/cultures/globalize.culture.pt-BR.js" defer=""></script><script src="/builder/elements/scripts/custom.js" defer=""></script><script src="/builder/elements/scripts/popup.js" defer=""></script><script src="https://blob.contato.io/machine-files/builder/navdropdown.js" defer=""></script><!--menudropdown--><!--<script src="//blob.contato.io/machine-files/builder/exitpop.js"></script>--><!--<script src="https://blob.contato.io/machine-files/builder/pop-exit.js" defer></script>--><script src="https://blob.contato.io/machine-files/amodels/webflow.js" defer=""></script><style>
+.btn:hover, .btn:focus, .btn:active {
+background-color: #00c0ff!important;
+border: none;
+}
+</style>
+
+<script>
+function onClick() {
+fbq('track', 'Lead');
+};
+</script></body></html>
+
+<link href="/Content/carousel.v2.css" rel="stylesheet" />
+<link href="/Content/capture-css?v=oOJgQoK9LnEi9OL3A1aO9wMX25qPnd9R43IskVue6hE1" rel="stylesheet" type="text/css" async />
+<link href="/Contents/page-advertising?v=OIjdLiP3zDbbwyGzc4HCP78v7aQq62NmROEun6odIEE1" rel="stylesheet" type="text/css" async />
+<script src="/bundles/globalize?v=Z7dQo83eosj7yLn2TxGEoPKpiluP65U_S4JHNU9GjkM1" type="text/javascript" async></script>
+<script src="/bundles/page-views?v=RFS_9pcQpAX3kK36TH6nfMX6edR9IzqGFT5-MduLznc1" type="text/javascript" async></script>
+<script src="/bundles/capture-script?v=7a1eIcywwGBpdSgaOByfgYBXgpYKmPAC4VRdNX1UVvQ1" type="text/javascript" async></script>
+<script type="text/javascript">
+    var _pageID = parseInt('12993398');
+    var _pageType = parseInt('1');
+    var _redirectID = parseInt('0');
+    var _machineID = parseInt('318437');
+    var _chatCode = '';
+    var _leadSource = '';
+    var _leadSCK = '';
+    var _fbURL = '';
+    var _clientLang = 'pt-BR';
+    var _isTest = Boolean(parseInt('0'));
+    var _isMultiCapture = Boolean(parseInt('0'));
+    var keepParameters = Boolean(0);
+    var _LGPDConsentText = '';
+    var _LGPDLinkTerms = '';
+    var _LGPDUrlTerms = '';
+    var _facebookApiConversionPixels = '';
+    $(document).ready(function () {
+        $('a[href^="https://apps.facebook.com/"]').attr('target', '_top');
+    });
+</script>
+<!-- LeadLovers Captcha -->
+
